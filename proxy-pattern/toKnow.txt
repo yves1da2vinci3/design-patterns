@@ -1,0 +1,20 @@
+Le Proxy Pattern fournit un substitut ou un espace réservé pour un autre objet afin de contrôler l'accès à celui-ci. Le proxy peut contrôler l'accès à l'objet original, ajouter des fonctionnalités ou retarder sa création et son initialisation.
+
+Pros
+- Contrôle l'accès à l'objet original tout en restant transparent pour le client
+- Peut fonctionner même si l'objet original n'est pas prêt ou disponible
+- Ajoute une couche de sécurité, de journalisation ou de mise en cache sans modifier l'objet original
+- Permet le chargement paresseux (lazy loading) des objets lourds
+
+Cons
+- Ajoute une couche d'indirection qui peut affecter les performances
+- Peut compliquer l'architecture du code
+- Le client pourrait remarquer des différences de comportement lorsqu'il passe par un proxy
+
+Types de Proxy
+- Proxy virtuel: Retarde la création des objets coûteux jusqu'à ce qu'ils soient nécessaires
+- Proxy de protection: Contrôle l'accès à l'objet original basé sur des droits d'accès
+- Proxy distant: Représente un objet dans un espace d'adressage différent
+- Proxy intelligent: Ajoute des fonctionnalités supplémentaires lors de l'accès à l'objet original
+
+link : https://www.patterns.dev/vanilla/proxy-pattern 

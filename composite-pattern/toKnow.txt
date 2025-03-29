@@ -1,0 +1,20 @@
+Le Composite Pattern compose des objets en structures arborescentes pour représenter des hiérarchies partie-tout. Il permet aux clients de traiter de manière uniforme les objets individuels et les compositions d'objets.
+
+Pros
+- Permet de créer des structures arborescentes complexes tout en maintenant une interface simple et uniforme
+- Facilite l'ajout de nouveaux types de composants sans modifier le code existant
+- Définit des hiérarchies de classes contenant des objets primitifs et leurs compositions
+- Simplifie le code client qui peut traiter à la fois des objets simples et des compositions complexes de la même façon
+
+Cons
+- Peut rendre la conception trop générale, offrant aux composants des méthodes qu'ils n'utilisent pas toujours
+- Peut rendre plus difficile la restriction des types d'objets ajoutés à une composition
+- Nécessite une bonne réflexion sur la sécurité des types et la cohérence du système
+
+Éléments clés
+- Composant: L'interface ou classe abstraite commune avec des opérations pour les objets simples et complexes
+- Feuille: Représente les objets primitifs qui n'ont pas de composants
+- Composite: Représente les objets complexes qui peuvent avoir des enfants (autres composants)
+- Client: Manipule les objets via l'interface Composant
+
+link : https://www.patterns.dev/vanilla/composite-pattern 
