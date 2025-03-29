@@ -1,0 +1,14 @@
+Le Singleton Pattern garantit qu'une classe ne peut avoir qu'une seule instance et fournit un point d'accès global à cette instance.
+
+Pros
+- Garantit qu'une classe n'a qu'une seule instance
+- Fournit un point d'accès global à cette instance
+- L'objet singleton n'est initialisé que lorsqu'il est demandé pour la première fois
+- Utile pour coordonner les actions à travers le système
+
+Cons
+- Peut rendre le code difficile à tester
+- Viole le principe de responsabilité unique
+- Nécessite un traitement spécial dans un environnement multithread
+
+link : https://www.patterns.dev/vanilla/singleton-pattern 

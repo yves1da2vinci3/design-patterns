@@ -1,0 +1,14 @@
+Le Decorator Pattern permet d'ajouter dynamiquement des comportements ou des responsabilités à des objets sans modifier leur structure de base, en plaçant ces objets dans des objets wrapper spéciaux qui contiennent les comportements.
+
+Pros
+- Ajoute des fonctionnalités aux objets sans modifier leur code
+- Permet d'ajouter ou de retirer des responsabilités à l'exécution
+- Alternative flexible à l'héritage pour étendre les fonctionnalités
+- Respecte le principe ouvert/fermé (ouvert à l'extension, fermé à la modification)
+
+Cons
+- Peut résulter en un grand nombre de petits objets
+- Peut être difficile de comprendre et de déboguer un système avec de nombreux décorateurs
+- Les décorateurs peuvent introduire des complexités supplémentaires
+
+link : https://www.patterns.dev/vanilla/decorator-pattern 

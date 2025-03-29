@@ -1,0 +1,14 @@
+L'Adapter Pattern convertit l'interface d'une classe en une autre interface que les clients attendent. Ce pattern permet à des classes de travailler ensemble qui ne pourraient pas le faire autrement à cause d'incompatibilités d'interfaces.
+
+Pros
+- Permet à des classes avec des interfaces incompatibles de travailler ensemble
+- Favorise la réutilisation de classes existantes même si elles ne correspondent pas à l'interface attendue
+- Permet d'intégrer des bibliothèques tierces sans modifier leur code source
+- Respecte le principe de responsabilité unique en séparant la conversion d'interface de la logique métier
+
+Cons
+- Peut ajouter une complexité supplémentaire au code
+- Parfois, il peut être préférable de refactoriser le code pour éviter d'avoir besoin d'adaptateurs
+- Peut impacter légèrement les performances en ajoutant une couche d'indirection
+
+link : https://www.patterns.dev/vanilla/adapter-pattern 

@@ -1,0 +1,13 @@
+L'Observer Pattern définit une relation un-à-plusieurs entre objets, de sorte que lorsqu'un objet change d'état, tous ses observateurs sont notifiés et mis à jour automatiquement.
+
+Pros
+- Permet le couplage faible entre objets qui interagissent ensemble
+- Support la communication dynamique entre objets
+- Respecte les principes de conception ouverte/fermée
+
+Cons
+- Les observateurs sont notifiés dans un ordre aléatoire
+- Risque de fuites mémoire si les observateurs ne sont pas correctement désabonnés
+- Peut entraîner des notifications en cascade complexes
+
+link : https://www.patterns.dev/vanilla/observer-pattern 

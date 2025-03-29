@@ -1,0 +1,14 @@
+Le Strategy Pattern définit une famille d'algorithmes, encapsule chacun d'eux et les rend interchangeables. Ce pattern permet aux algorithmes de varier indépendamment des clients qui les utilisent.
+
+Pros
+- Isole la logique d'implémentation des algorithmes de leur utilisation
+- Permet de remplacer les algorithmes utilisés à l'exécution
+- Évite les conditions complexes en encapsulant les comportements dans des classes séparées
+- Respecte le principe de responsabilité unique et le principe ouvert/fermé
+
+Cons
+- Peut augmenter le nombre de classes dans l'application
+- Les clients doivent connaître les différentes stratégies disponibles
+- Peut être excessif pour des algorithmes simples
+
+link : https://www.patterns.dev/vanilla/strategy-pattern 
