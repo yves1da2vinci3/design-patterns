@@ -1,0 +1,20 @@
+L'Iterator Pattern fournit un moyen d'accéder séquentiellement aux éléments d'une collection sans exposer sa représentation sous-jacente. Il délègue la responsabilité du parcours à l'objet itérateur plutôt qu'à la collection elle-même.
+
+Pros
+- Simplifie la collection en déplaçant la responsabilité de parcours vers l'itérateur
+- Permet de parcourir la collection de différentes manières en utilisant différents itérateurs
+- Fournit une interface uniforme pour parcourir différents types de collections
+- Permet de parcourir une collection sans connaître sa structure interne
+
+Cons
+- Peut sembler excessif pour les collections simples lorsque l'itération est directe
+- Dans certains cas, ajoute une complexité qui n'est pas nécessaire
+- Peut être moins efficace que l'accès direct dans certains cas d'utilisation
+
+Caractéristiques
+- L'itérateur définit une interface avec des méthodes comme hasNext(), next(), etc.
+- La collection fournit une méthode pour créer un itérateur
+- Le client utilise l'itérateur pour parcourir la collection sans connaître sa structure interne
+- Plusieurs itérateurs peuvent parcourir la même collection simultanément
+
+link : https://www.patterns.dev/vanilla/iterator-pattern 

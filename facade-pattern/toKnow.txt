@@ -1,0 +1,19 @@
+Le Facade Pattern fournit une interface unifiée à un ensemble d'interfaces dans un sous-système. Il définit une interface de plus haut niveau qui rend le sous-système plus facile à utiliser.
+
+Pros
+- Simplifie l'utilisation d'un système complexe en fournissant une interface unique et plus simple
+- Isole les clients des composants du sous-système, réduisant ainsi le nombre de dépendances
+- Favorise le couplage faible entre le client et le sous-système
+- Permet de réorganiser le sous-système sans affecter les clients
+
+Cons
+- Peut devenir un objet "fourre-tout" qui fait trop de choses
+- Risque de devenir un point de défaillance unique
+- Peut masquer la complexité utile du système et limiter la flexibilité
+
+Utilisation
+- Quand vous avez besoin de fournir une interface simple à un système complexe
+- Pour décomposer un système en couches, utilisez une façade pour définir un point d'entrée à chaque niveau
+- Quand il y a de nombreuses dépendances entre les clients et les classes d'implémentation
+
+link : https://www.patterns.dev/vanilla/facade-pattern 
