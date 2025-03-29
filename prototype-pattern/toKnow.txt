@@ -1,0 +1,21 @@
+Le Prototype Pattern est un pattern de création qui permet de créer de nouveaux objets en copiant un objet existant, appelé prototype, plutôt que de créer de nouveaux objets à partir de zéro.
+
+Pros
+- Réduit le coût de création d'objets complexes en copiant un prototype au lieu de les créer à partir de zéro
+- Permet de cacher la complexité de création et de ne montrer que l'interface de clonage
+- Permet de créer des objets sans dépendre de leurs classes concrètes
+- Réduit le nombre de sous-classes nécessaires pour créer des objets avec différentes configurations
+
+Cons
+- La copie d'objets complexes avec des références circulaires peut être difficile
+- Le clonage en profondeur (deep clone) peut être difficile à implémenter correctement
+- Certains objets peuvent contenir des ressources qui ne peuvent pas être clonées (comme des connexions réseau)
+
+Utilisations courantes
+- Quand les classes à instancier sont spécifiées au moment de l'exécution (dynamiquement)
+- Pour éviter de construire une hiérarchie de classes Factory parallèle à la hiérarchie de produits
+- Quand l'instanciation d'un grand nombre d'objets similaires est plus efficace par clonage
+
+Dans certains langages comme JavaScript, le pattern prototype est intrinsèque au langage lui-même, car les objets peuvent être clonés directement ou via des méthodes comme Object.create().
+
+link : https://www.patterns.dev/vanilla/prototype-pattern 

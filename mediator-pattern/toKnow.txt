@@ -1,0 +1,25 @@
+Le Mediator Pattern définit un objet qui encapsule comment un ensemble d'objets interagissent. Il favorise un couplage faible en évitant que les objets ne se réfèrent explicitement les uns aux autres et permet de varier leurs interactions indépendamment.
+
+Pros
+- Réduit le couplage entre les composants du système
+- Centralise les interactions complexes entre les objets
+- Simplifie les protocoles de communication entre les objets
+- Facilite la réutilisation des objets individuels
+
+Cons
+- Le médiateur peut devenir trop complexe et difficile à maintenir
+- Peut créer un point de défaillance unique dans le système
+- Risque de transformer le médiateur en un "objet Dieu" qui fait trop de choses
+
+Caractéristiques
+- Un médiateur définit une interface pour communiquer avec les objets collègues
+- Chaque collègue connaît son médiateur mais pas les autres collègues
+- Les collègues envoient et reçoivent des requêtes du médiateur, pas directement des autres collègues
+- Le médiateur implémente le comportement de coopération entre les collègues
+
+Utilisations courantes
+- Interfaces utilisateur complexes avec de nombreux composants interdépendants
+- Systèmes de communication où plusieurs parties doivent se coordonner
+- Contrôle du trafic aérien où les avions communiquent via une tour de contrôle
+
+link : https://www.patterns.dev/vanilla/mediator-pattern 
