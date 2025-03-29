@@ -1,0 +1,26 @@
+Le Builder Pattern sépare la construction d'un objet complexe de sa représentation, permettant ainsi de créer différentes représentations avec le même processus de construction.
+
+Pros
+- Permet de créer des objets avec de nombreux paramètres de manière lisible et maintenable
+- Isole le code de construction du code de représentation
+- Permet de varier la représentation interne d'un produit
+- Fournit un meilleur contrôle sur le processus de construction
+- Permet la construction étape par étape d'objets complexes
+
+Cons
+- Peut introduire une complexité supplémentaire lorsque le produit est simple
+- Crée une classe builder distincte pour chaque type de produit
+- Peut être plus verbeux que d'autres approches comme les constructeurs
+
+Applications typiques
+- Construction d'objets qui nécessitent de nombreux paramètres
+- Construction d'objets qui ont une structure complexe avec de nombreuses parties
+- Construction d'objets dont le processus de création doit être contrôlé étape par étape
+- Implémentation du pattern "Fluent Interface" pour créer des API plus lisibles
+
+Variantes
+- Builder standard: utilise un directeur pour coordonner la construction
+- Builder fluent: chaîne les méthodes pour une syntaxe plus expressive
+- Builder facetté: utilise plusieurs builders pour différents aspects d'un objet complexe
+
+link : https://www.patterns.dev/vanilla/builder-pattern 
